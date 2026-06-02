@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 
 app = FastAPI()
 
-model = SentenceTransformer("")
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 class EmbeddingRequest(BaseModel):
